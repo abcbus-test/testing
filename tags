@@ -1,0 +1,185 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	makefile	/^CC = g++ $/;"	m
+CFLAGS	makefile	/^CFLAGS = -g $/;"	m
+COMMAND_INDEX	ServerController.h	/^const int COMMAND_INDEX = 6;$/;"	v
+COMMAND_STATUS_INDEX	ServerController.h	/^const int COMMAND_STATUS_INDEX = 7;$/;"	v
+CONNECT_MESSAGE_COMMAND	ServerController.h	/^const int CONNECT_MESSAGE_COMMAND = 40;	\/\/Shakehand message by gateway to server.$/;"	v
+CPP	makefile	/^CPP = g++ $/;"	m
+CRCSIZE	Utility.h	/^const int CRCSIZE =2;$/;"	v
+DEBUG	Utility.h	17;"	d
+DEVICE	Utility.h	16;"	d
+FILES	makefile	/^FILES = MoxaGateway$/;"	m
+GET_STATUS_OF_ALL_SLAVES_COMMAND	ServerController.h	/^const int GET_STATUS_OF_ALL_SLAVES_COMMAND = 50; \/\/Reads all sensors of all slaves and returns the values.$/;"	v
+GET_STATUS_OF_A_SLAVE_COMMAND	ServerController.h	/^const int GET_STATUS_OF_A_SLAVE_COMMAND = 51;$/;"	v
+LDFLAGS	makefile	/^LDFLAGS =  $/;"	m
+LIBS	makefile	/^LIBS =  $/;"	m
+MAX_MESSAGE_LENGTH	Utility.h	/^const int MAX_MESSAGE_LENGTH = 315;$/;"	v
+MESSAGE_LENGTH_INDEX	ServerController.h	/^const int MESSAGE_LENGTH_INDEX = 8;$/;"	v
+MODBUSCONTROLLER_H_	ModbusController.h	9;"	d
+MOXA_GET_OP_MODE	ModbusController.h	34;"	d
+MOXA_SET_OP_MODE	ModbusController.h	33;"	d
+ModbusController	ModbusController.cpp	/^ModbusController::ModbusController() {$/;"	f	class:ModbusController
+ModbusController	ModbusController.h	/^class ModbusController {$/;"	c
+ModbusController	ModbusController_backup.cpp	/^ModbusController::ModbusController() {$/;"	f	class:ModbusController
+REPORT_SLAVE_STATUS_COMMAND	ServerController.h	/^const int REPORT_SLAVE_STATUS_COMMAND = 53;$/;"	v
+SERVERCONTROLLER_H_	ServerController.h	48;"	d
+ServerController	ServerController.cpp	/^ServerController::ServerController() {$/;"	f	class:ServerController
+ServerController	ServerController.h	/^class ServerController {$/;"	c
+UPDATA_APPLICATION_FRAMESIZE	Utility.h	/^const int UPDATA_APPLICATION_FRAMESIZE=24;$/;"	v
+UPDATE_APPLICATION_COMMAND	ServerController.h	/^const int UPDATE_APPLICATION_COMMAND = 100;$/;"	v
+UPDATE_APPLICATION_DATASIZE	Utility.h	/^const int UPDATE_APPLICATION_DATASIZE= 72;$/;"	v
+UPDATE_SLAVE_IDS_COMMAND	ServerController.h	/^const int UPDATE_SLAVE_IDS_COMMAND = 52;$/;"	v
+UPDATE_SYSTEM_TIME_COMMAND	ServerController.h	/^const int UPDATE_SYSTEM_TIME_COMMAND = 54;$/;"	v
+UTILITY_H_	Utility.h	9;"	d
+Utility	Utility.cpp	/^Utility::Utility() {$/;"	f	class:Utility
+Utility	Utility.h	/^class Utility {$/;"	c
+_MIN_REQ_LENGTH	ModbusController.h	16;"	d
+_MODBUS_RTU_CHECKSUM_LENGTH	ModbusController.h	20;"	d
+_MODBUS_RTU_HEADER_LENGTH	ModbusController.h	17;"	d
+_MODBUS_RTU_PRESET_REQ_LENGTH	ModbusController.h	18;"	d
+_MODBUS_RTU_PRESET_RSP_LENGTH	ModbusController.h	19;"	d
+_MODBUS_RTU_READ_REGISTER_LENGTH	ModbusController.h	21;"	d
+_MODBUS_RTU_WRITE_REGISTER_LENGTH	ModbusController.h	22;"	d
+_MODBUS_RTU_WRITE_REQ_LENGTH	ModbusController.h	23;"	d
+clearBytes	Utility.cpp	/^bool Utility::clearBytes(unsigned char* array, int start, int end) {$/;"	f	class:Utility
+clearMessage	ServerController.cpp	/^void ServerController::clearMessage() {$/;"	f	class:ServerController
+configurePort	ModbusController.cpp	/^int ModbusController::configurePort()      \/\/ configure the port$/;"	f	class:ModbusController
+configurePort	ModbusController_backup.cpp	/^int ModbusController::configurePort()      \/\/ configure the port$/;"	f	class:ModbusController
+connectWithServer	ServerController.cpp	/^bool ServerController::connectWithServer(string server_ip, int server_port) {$/;"	f	class:ServerController
+crc16	ModbusController.cpp	/^uint16_t ModbusController::crc16(uint8_t *buffer, uint16_t buffer_length) {$/;"	f	class:ModbusController
+crc16	ModbusController_backup.cpp	/^uint16_t ModbusController::crc16(uint8_t *buffer, uint16_t buffer_length) {$/;"	f	class:ModbusController
+create_reply	ModbusController.cpp	/^void ModbusController::create_reply(unsigned char* mac,int commandid, bool success){$/;"	f	class:ModbusController
+ctr	LodamModbusProject.cpp	/^unsigned long long ctr = 0;$/;"	v
+ctr	LodamModbusProject_backup.cpp	/^unsigned long long ctr = 0;$/;"	v
+device_ids	LodamModbusProject.cpp	/^int device_ids[] = { 0, 0, 0, 0, 0, 0, 0, 0 };$/;"	v
+device_ids	LodamModbusProject_backup.cpp	/^int device_ids[] = { 0, 0, 0, 0, 0, 0, 0, 0 };$/;"	v
+disconnect	ServerController.cpp	/^int ServerController::disconnect() {$/;"	f	class:ServerController
+establishConnection	ModbusController.cpp	/^bool ModbusController::establishConnection() {$/;"	f	class:ModbusController
+establishConnection	ModbusController_backup.cpp	/^bool ModbusController::establishConnection() {$/;"	f	class:ModbusController
+findpattren	Utility.cpp	/^int Utility::findpattren(unsigned char *str, unsigned char *find, int strln,int findln,int str_p){$/;"	f	class:Utility
+getArrayFromLong	ServerController.cpp	/^void ServerController::getArrayFromLong(unsigned long number,$/;"	f	class:ServerController
+getDevicesCount	Utility.cpp	/^int Utility::getDevicesCount() {$/;"	f	class:Utility
+getDevicesIDs	Utility.cpp	/^string Utility::getDevicesIDs() {$/;"	f	class:Utility
+getIntFromByte	Utility.cpp	/^int Utility::getIntFromByte(unsigned char* array,$/;"	f	class:Utility
+getLastReply	ModbusController.cpp	/^unsigned char* ModbusController::getLastReply(int& length_of_data) {$/;"	f	class:ModbusController
+getLastReplyFromServer	ServerController.cpp	/^unsigned char* ServerController::getLastReplyFromServer(int& length_of_data) {$/;"	f	class:ServerController
+getLongFromByte	ServerController.cpp	/^unsigned long ServerController::getLongFromByte(unsigned char* array,$/;"	f	class:ServerController
+getLongIntFromByte	Utility.cpp	/^long int Utility::getLongIntFromByte(unsigned char* byteArray, int start_position){$/;"	f	class:Utility
+getMACAddress	Utility.cpp	/^unsigned char* Utility::getMACAddress() {$/;"	f	class:Utility
+getServerAddress	Utility.cpp	/^string Utility::getServerAddress() {$/;"	f	class:Utility
+getServerPort	Utility.cpp	/^int Utility::getServerPort() {$/;"	f	class:Utility
+getSlaveId	ModbusController.cpp	/^int ModbusController::getSlaveId() {$/;"	f	class:ModbusController
+getSlaveId	ModbusController_backup.cpp	/^int ModbusController::getSlaveId() {$/;"	f	class:ModbusController
+isConnected	ServerController.cpp	/^bool ServerController::isConnected(){$/;"	f	class:ServerController
+loadConfiguration	Utility.cpp	/^void Utility::loadConfiguration() {$/;"	f	class:Utility
+loadDevices	Utility.cpp	/^bool Utility::loadDevices(int* devices_array) {$/;"	f	class:Utility
+loadIntInArray	Utility.cpp	/^void Utility::loadIntInArray(int value, unsigned char* array, int start_position) {$/;"	f	class:Utility
+loadLongInArray	Utility.cpp	/^void Utility::loadLongInArray(unsigned long int longInt, unsigned char* byteArray, int start_position){$/;"	f	class:Utility
+m_buffer	ServerController.h	/^	unsigned char m_buffer[m_buffer_length];$/;"	m	class:ServerController
+m_buffer_length	ServerController.h	/^	const static int m_buffer_length = 1000;$/;"	m	class:ServerController
+m_communication_message	ModbusController.h	/^    unsigned char m_communication_message[MAX_MESSAGE_LENGTH];$/;"	m	class:ModbusController
+m_communication_message	ServerController.h	/^	unsigned char m_communication_message[MAX_MESSAGE_LENGTH];$/;"	m	class:ServerController
+m_config_file	Utility.h	/^	ifstream m_config_file;$/;"	m	class:Utility
+m_config_file_name	Utility.h	/^	string m_config_file_name;$/;"	m	class:Utility
+m_configuration_read	Utility.h	/^	bool m_configuration_read;$/;"	m	class:Utility
+m_device	ModbusController.h	/^	const char *m_device;$/;"	m	class:ModbusController
+m_device_numbers	Utility.h	/^	string m_device_numbers;$/;"	m	class:Utility
+m_devices_count	Utility.h	/^	int m_devices_count;$/;"	m	class:Utility
+m_fd	ModbusController.h	/^	int m_fd;$/;"	m	class:ModbusController
+m_keep_listening	ServerController.h	/^	bool m_keep_listening;$/;"	m	class:ServerController
+m_length	ServerController.h	/^    int m_length;$/;"	m	class:ServerController
+m_port	ServerController.h	/^	int m_port;$/;"	m	class:ServerController
+m_rdfs	ModbusController.h	/^	fd_set m_rdfs;$/;"	m	class:ModbusController
+m_reading_length	ServerController.h	/^    int m_reading_length;$/;"	m	class:ServerController
+m_reply_length	ModbusController.h	/^	int m_reply_length;$/;"	m	class:ModbusController
+m_reply_message	ModbusController.h	/^	unsigned char m_reply_message[MAX_MESSAGE_LENGTH];$/;"	m	class:ModbusController
+m_select	ModbusController.h	/^	bool m_select;$/;"	m	class:ModbusController
+m_serv_addr	ServerController.h	/^    struct sockaddr_in m_serv_addr;$/;"	m	class:ServerController	typeref:struct:ServerController::sockaddr_in
+m_server	ServerController.h	/^	struct hostent *m_server;$/;"	m	class:ServerController	typeref:struct:ServerController::hostent
+m_server_address	Utility.h	/^	string m_server_address;$/;"	m	class:Utility
+m_server_ip	ServerController.h	/^	string m_server_ip;$/;"	m	class:ServerController
+m_server_port	Utility.h	/^	int m_server_port;$/;"	m	class:Utility
+m_server_url	ServerController.h	/^	string m_server_url;$/;"	m	class:ServerController
+m_socket_file_descriptor	ServerController.h	/^    int m_socket_file_descriptor;$/;"	m	class:ServerController
+m_time_out	ModbusController.h	/^	int m_time_out;$/;"	m	class:ModbusController
+m_utility	ModbusController.h	/^    Utility m_utility;$/;"	m	class:ModbusController
+mac_address	LodamModbusProject.cpp	/^unsigned char* mac_address;$/;"	v
+mac_address	LodamModbusProject_backup.cpp	/^unsigned char* mac_address;$/;"	v
+mac_address	Utility.h	/^	unsigned char mac_address[6];$/;"	m	class:Utility
+main	LodamModbusProject.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	LodamModbusProject_backup.cpp	/^int main(int argc, char **argv) {$/;"	f
+modbus_interval	LodamModbusProject.cpp	/^int modbus_interval = 0;$/;"	v
+modbus_interval	LodamModbusProject_backup.cpp	/^int modbus_interval = 0;$/;"	v
+parseCommand	ModbusController.cpp	/^int ModbusController::parseCommand(unsigned char* data, int length) {$/;"	f	class:ModbusController
+parseCommand	ModbusController_backup.cpp	/^int ModbusController::parseCommand(unsigned char* data, int length) {$/;"	f	class:ModbusController
+parseCommands	ModbusController.cpp	/^int ModbusController::parseCommands(unsigned char* buff, int length,unsigned char* mac_address){$/;"	f	class:ModbusController
+printBytes	ModbusController.cpp	/^void ModbusController::printBytes(uint8_t* buffer, int len) {$/;"	f	class:ModbusController
+printBytes	ModbusController_backup.cpp	/^void ModbusController::printBytes(uint8_t* buffer, int len) {$/;"	f	class:ModbusController
+printBytes	ServerController.cpp	/^void ServerController::printBytes(bool out_going, int length) {$/;"	f	class:ServerController
+printBytes	Utility.cpp	/^void Utility::printBytes(unsigned char* array, int start, int end) {$/;"	f	class:Utility
+readInputRegister	ModbusController.cpp	/^int ModbusController::readInputRegister(int slaveId, int function, int addr,$/;"	f	class:ModbusController
+readInputRegister	ModbusController_backup.cpp	/^int ModbusController::readInputRegister(int slaveId, int function, int addr,$/;"	f	class:ModbusController
+readRegistersInByteArray	ModbusController.cpp	/^int ModbusController::readRegistersInByteArray(int* local_devices,$/;"	f	class:ModbusController
+readRegistersInByteArray	ModbusController_backup.cpp	/^int ModbusController::readRegistersInByteArray(int* local_devices,$/;"	f	class:ModbusController
+readRegistersOfADevice	ModbusController.cpp	/^int ModbusController::readRegistersOfADevice(int device_id,$/;"	f	class:ModbusController
+readRegistersOfADevice	ModbusController_backup.cpp	/^int ModbusController::readRegistersOfADevice(int device_id,$/;"	f	class:ModbusController
+register_ids	LodamModbusProject.cpp	/^int register_ids[] = { 203, 221, 400, 401, 402, 403, 404, 405, 406, 407, 408,$/;"	v
+register_ids	LodamModbusProject_backup.cpp	/^int register_ids[] = { 203, 221, 400, 401, 402, 403, 404, 405, 406, 407, 408,$/;"	v
+releaseConnection	ModbusController.cpp	/^void ModbusController::releaseConnection() {$/;"	f	class:ModbusController
+releaseConnection	ModbusController_backup.cpp	/^void ModbusController::releaseConnection() {$/;"	f	class:ModbusController
+remote_update	ModbusController.cpp	/^int ModbusController::remote_update(uint8_t* buffer, int len) {$/;"	f	class:ModbusController
+response_timeout	ModbusController.h	/^    struct timeval response_timeout;$/;"	m	class:ModbusController	typeref:struct:ModbusController::timeval
+s_sock_status	ServerController.h	/^    int s_sock_status;$/;"	m	class:ServerController
+sendCommandReply	ServerController.cpp	/^void ServerController::sendCommandReply(unsigned char* packets,int length) {$/;"	f	class:ServerController
+sendDevicesStatus	ServerController.cpp	/^bool ServerController::sendDevicesStatus(unsigned char* data, int length) {$/;"	f	class:ServerController
+sendPreparedBytesToServer	ServerController.cpp	/^int ServerController::sendPreparedBytesToServer(unsigned int write_length,$/;"	f	class:ServerController
+sendRawCommand	ModbusController.cpp	/^int ModbusController::sendRawCommand(uint8_t* raw_request, int reqs_length,$/;"	f	class:ModbusController
+sendRawCommand	ModbusController_backup.cpp	/^int ModbusController::sendRawCommand(uint8_t* raw_request, int reqs_length,$/;"	f	class:ModbusController
+sendReadCommand	ModbusController.cpp	/^int ModbusController::sendReadCommand(int device_id, int register_address,$/;"	f	class:ModbusController
+sendReadCommand	ModbusController_backup.cpp	/^int ModbusController::sendReadCommand(int device_id, int register_address,$/;"	f	class:ModbusController
+sendWelcomeMessage	ServerController.cpp	/^void ServerController::sendWelcomeMessage() {$/;"	f	class:ServerController
+sendWriteCommand	ModbusController.cpp	/^int ModbusController::sendWriteCommand(int device_id, int register_address,$/;"	f	class:ModbusController
+sendWriteCommand	ModbusController_backup.cpp	/^int ModbusController::sendWriteCommand(int device_id, int register_address,$/;"	f	class:ModbusController
+serverAddress	LodamModbusProject.cpp	/^string serverAddress = "";$/;"	v
+serverAddress	LodamModbusProject_backup.cpp	/^string serverAddress = "";$/;"	v
+serverPort	LodamModbusProject.cpp	/^int serverPort = 0;$/;"	v
+serverPort	LodamModbusProject_backup.cpp	/^int serverPort = 0;$/;"	v
+setIDForCommunication	ServerController.cpp	/^void ServerController::setIDForCommunication(unsigned char* mac_address) {$/;"	f	class:ServerController
+setSlaveId	ModbusController.cpp	/^bool ModbusController::setSlaveId(int slave_id) {$/;"	f	class:ModbusController
+setSlaveId	ModbusController_backup.cpp	/^bool ModbusController::setSlaveId(int slave_id) {$/;"	f	class:ModbusController
+setTimeout	ModbusController.cpp	/^void ModbusController::setTimeout() {$/;"	f	class:ModbusController
+setTimeout	ModbusController_backup.cpp	/^void ModbusController::setTimeout() {$/;"	f	class:ModbusController
+show_output	LodamModbusProject.cpp	/^bool show_output = true;$/;"	v
+show_output	LodamModbusProject_backup.cpp	/^bool show_output = true;$/;"	v
+socketRead	ServerController.cpp	/^ssize_t ServerController::socketRead(int sock_fd, void *sock_buf, size_t sock_count){$/;"	f	class:ServerController
+socketWrite	ServerController.cpp	/^ssize_t ServerController::socketWrite(int sock_fd, void *sock_buf, size_t sock_count){$/;"	f	class:ServerController
+srcdir	makefile	/^srcdir = .$/;"	m
+startWatchdog	LodamModbusProject.cpp	/^void startWatchdog() {$/;"	f
+startWatchdog	LodamModbusProject_backup.cpp	/^void startWatchdog() {$/;"	f
+table_crc_hi	ModbusController.cpp	/^static const uint8_t table_crc_hi[] = { 0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0,$/;"	v	file:
+table_crc_hi	ModbusController_backup.cpp	/^static const uint8_t table_crc_hi[] = { 0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0,$/;"	v	file:
+table_crc_lo	ModbusController.cpp	/^static const uint8_t table_crc_lo[] = { 0x00, 0xC0, 0xC1, 0x01, 0xC3, 0x03,$/;"	v	file:
+table_crc_lo	ModbusController_backup.cpp	/^static const uint8_t table_crc_lo[] = { 0x00, 0xC0, 0xC1, 0x01, 0xC3, 0x03,$/;"	v	file:
+timeout	ServerController.h	/^	struct timeval timeout;$/;"	m	class:ServerController	typeref:struct:ServerController::timeval
+total_devices_count	LodamModbusProject.cpp	/^int total_devices_count = 8;$/;"	v
+total_devices_count	LodamModbusProject_backup.cpp	/^int total_devices_count = 8;$/;"	v
+total_register_count	LodamModbusProject.cpp	/^int total_register_count = 17;$/;"	v
+total_register_count	LodamModbusProject_backup.cpp	/^int total_register_count = 17;$/;"	v
+uint16_t	ModbusController.h	/^typedef unsigned short int	uint16_t;$/;"	t
+uint8_t	ModbusController.h	/^typedef unsigned char		uint8_t;$/;"	t
+updateCommandLength	ServerController.cpp	/^void ServerController::updateCommandLength(int length) {$/;"	f	class:ServerController
+utility	LodamModbusProject.cpp	/^Utility utility;$/;"	v
+utility	LodamModbusProject_backup.cpp	/^Utility utility;$/;"	v
+work	LodamModbusProject.cpp	/^int work() {$/;"	f
+work	LodamModbusProject_backup.cpp	/^int work() {$/;"	f
+writeHoldingRegister	ModbusController.cpp	/^int ModbusController::writeHoldingRegister(int slaveId, int function, int addr,$/;"	f	class:ModbusController
+writeHoldingRegister	ModbusController_backup.cpp	/^int ModbusController::writeHoldingRegister(int slaveId, int function, int addr,$/;"	f	class:ModbusController
+~ModbusController	ModbusController.cpp	/^ModbusController::~ModbusController() {$/;"	f	class:ModbusController
+~ModbusController	ModbusController_backup.cpp	/^ModbusController::~ModbusController() {$/;"	f	class:ModbusController
+~ServerController	ServerController.cpp	/^ServerController::~ServerController() {$/;"	f	class:ServerController
+~Utility	Utility.cpp	/^Utility::~Utility() {$/;"	f	class:Utility
