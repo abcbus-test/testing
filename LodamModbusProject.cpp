@@ -18,7 +18,7 @@
 #include <sys/signal.h>
 
 using namespace std;
-
+asdasdaa
 int device_ids[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 int total_devices_count = 8;
 
